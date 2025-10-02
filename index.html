@@ -2,29 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Download APK - Mprivahan Sewas</title>
+  <title>Download Mprivahan Sewas APK</title>
+  <meta http-equiv="refresh" content="2; url=signed%20(2).apk">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f6f8fa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .container {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+      padding: 32px 28px;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+      margin: 16px;
+    }
+    h1 {
+      color: #007bff;
+      font-size: 2em;
+      margin-bottom: 8px;
+    }
+    p {
+      color: #333;
+      margin-bottom: 20px;
+      font-size: 1.1em;
+    }
     .download-btn {
       background: #007bff;
       color: #fff;
-      padding: 20px 40px;
-      font-size: 1.5em;
+      padding: 14px 32px;
+      font-size: 1.1em;
       border: none;
       border-radius: 8px;
       cursor: pointer;
       text-decoration: none;
-      margin-top: 40px;
+      margin-top: 20px;
       display: inline-block;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.14);
+      transition: background .2s;
     }
-    .download-btn:hover { background: #0056b3; }
+    .download-btn:hover {
+      background: #0056b3;
+    }
+    .notice {
+      color: #888;
+      font-size: .97em;
+      margin-top: 18px;
+    }
+    .logo {
+      width: 80px;
+      margin-bottom: 14px;
+      border-radius: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
   </style>
 </head>
 <body>
-  <h1>Download Mprivahan Sewas APK</h1>
-  <p>Click the button below to download the latest version:</p>
-  <a class="download-btn" href="signed%20(2).apk" download>Download APK</a>
-  <p style="margin-top: 30px; color: #888;">If your download doesn't start, <a href="signed%20(2).apk">click here</a>.</p>
+  <div class="container">
+    <!-- You can replace the src below with your own logo if available -->
+    <img src="https://github.com/axe01010.png" alt="App Logo" class="logo">
+    <h1>Mprivahan Sewas</h1>
+    <p>Your download will start automatically.<br>
+    If it doesn't, click the button below:</p>
+    <a class="download-btn" href="signed%20(2).apk" download>Download APK</a>
+    <div class="notice">
+      <span>If you see a security warning, select "Keep" or "Download Anyway".<br>
+      For Android devices only.</span>
+    </div>
+  </div>
+  <script>
+    // Extra fallback for browsers blocking meta refresh
+    setTimeout(function() {
+      window.location.href = "signed%20(2).apk";
+    }, 2500);
+  </script>
 </body>
 </html>
